@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
             settings.domStorageEnabled = true
             settings.javaScriptEnabled = true
 
-            val url = "https://appassets.androidplatform.net/assets/index.html"
+            val url = "https://appassets.androidplatform.net/assets/web_assets/index.html"
             loadUrl(url)
         }
     }
